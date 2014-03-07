@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- buang sat
+<link href="css/jquery.mobile-1.4.2.min.css" rel="stylesheet" type="text/css">
+-->
+  <link rel="stylesheet" href="css/themes/zackcolor.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.2.min.css" /> 
+  
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.mobile-1.4.2.min.js"></script>
+
+
+</head>
+
+<body>
+<!-- panel luar -->
+<script>
+	$(function() {
+		$('#mypanel').panel().enhanceWithin();
+	});
+</script>
+<div data-role="panel" id="mypanel" data-theme="b">
+    <h3>STATISTIK</h3>
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#page1">PANDUAN</a></li>
+		<li><a href="#page2">MAKLUMAT</a></li>
+		<li><a href="#page3">REHAT</a></li>
+	</ul>
+</div>
+<!-- PAGE 1 -->
+<div data-role="page" id="page1" data-theme="a">
+
+  <div data-role="header" data-position="fixed">
+	<a href="#mypanel" class="ui-btn-left" data-icon="bars">Buka Disini</a>
+	
+	<h3>SELAMAT DATANG KE KELAS WEB SITU PENANG</h3>
+	
+  </div>
+  <div role="main" class="ui-content">
+
+ <h3> KURSUS WEB MOBILE APPS DI CIAST</h3>
+
+<h4> TUDM TELAH MAJU SETAPAK DIMANA MENGHANTAR PEGAWAI TERHEBAT MENGIKUTI KURSUS </h4>
+
+<p>INI ADALAH PEGAWAI YANG TERLIBAT<br />DIBAWAH NAUNGAN MPLU</p>
+
+<p>TAHNIAH</p>
+
+<img src="img/1.jpg" width="80%" style="display : block; margin : 0 auto;"/>
+<img src="img/2.jpg" style="display : block; margin : 0 auto;"/>
+<img src="img/3.jpg" style="display : block; margin : 0 auto;"/>
+
+<a href="#page2" class="ui-btn" data-transition="slideup">  
+PAGE2</a>
+<a href="#page3" class="ui-btn" data-transition="flip">
+PAGE3</a>
+
+
+<p>jom belajar</p>
+
+<p><a href="http://www.w3schools.com/"> jom belajar di www.w3schools.com</a></p>
+
+
+  </div>
+  <div data-role="footer" data-position="fixed">
+  
+	<!-- /navbar -->
+	<div data-role="navbar">
+    <ul>
+        <li><a data-icon="home" class="ui-btn-active ui-state-persist">PILIHAN 1</a></li>
+        <li><a data-icon="phone" href="#page2">PILIHAN 2</a></li>
+        <li><a data-icon="alert" href="#page3">PILIHAN 3</a></li>
+    </ul>
+	</div>
+
+    <h3>SELAMAT MENCUBA SEMUA</h3>
+  </div>
+</div>
+<!-- /page -->
+<!-- page 2 -->
+<div data-role="page" id="page2" data-theme="b">
+	<!-- header -->
+	<div data-role="header"data-add-back-btn="true" >
+		<h1>Ruangan Staf</h1>
+	</div>
+	<!-- /header -->
+
+	<!-- content -->
+		<div role="main" class="ui-content">
+		
+		<img src="img/tudm.jpg" style="display : block; margin : 0 auto;"/>
+		
+		<div data-role="collapsibleset">
+		<h3>Maklumat Tambahan</h3>
+			<div data-role="collapsible">
+			<h4>Sejarah KTU</h4>
+				<div class="ui-grid-a ui-responsive">
+					<div class="ui-block-a">
+					<img src="img/ktu.jpg" style="display : block; margin : 0 auto;"/>
+					</div>
+					<div class="ui-block-b">
+					Kolej Tentera Udara pada mulanya dipanggil Sekolah Latihan Penerbangan TUDM dalam tahun 1963 . Penubuhan tersebut adalah untuk mengambil alih Lapangan Terbang Alor Setar dari Tentera Udara Diraja British. Pada 1 Jul 1964, Sqn Ldr JF Woodard seorang pegawai pinjaman dari RAF adalah pegawai memerintah yang pertama.
+					</div>
+					
+				</div>
+			</div>
+			<div data-role="collapsible">
+			<h4>ITAS</h4>
+				<img src="img/itas.jpg" width="80%" style="display:block; margin: 0 auto;">
+				<p>
+				Dengan konsep pemusatan ini beberapa unit latihan TUDM  seperti Pusat Latihan Pegawai (PLP), Institut Teknologi Aerospace (ITAS) dan Pusat Latihan Terbang 2 telah ditempatkan di TUDM Alor Setar. Pemusatan unit-unit latihan ini juga berasaskan kepada wawasan TUDM untuk  menjadikan  Kolej  Tentera  Udara sebagai ‘Centre of Aerospace Studies’.
+				</p>
+			</div>
+			<div data-role="collapsible">
+			<h4>Sekolah Penerbangan</h4>
+				<img src="img/ilit.jpg" width="80%" style="display:block; margin: 0 auto;">
+				<p>
+				Pada Jan 1978, Sekolah Latihan Jurulatih Penerbangan telah ditubuhkan di pangkalan ini. Ianya dikenali sebagai Institut Latihan Instruktor Terbang.  TUDM Alor Setar telah dinaikkan ke Kolej Tentera Udara. Lokasinya terletak kira-kira 12 kilometer dari bandar Alor Setar, Kedah Darul Aman. Dengan keluasan seluas 65 hektar persegi ,ianya   bertujuan bagi menetapkan semua unit-unit latihan di satu tempat yang sesuai dengan suasana latihan dan mempunyai kelengkapan serta kemudahan mencukupi.
+				</p>
+			</div>
+			
+			</div>		
+			</div>
+			</div>
+	</div>
+	<!-- /content -->
+
+	<!-- footer -->
+	<div data-role="footer" data-position="fixed">
+	
+	<!-- /navbar -->
+	<div data-role="navbar">
+    <ul>
+        <li><a data-icon="home" href="#page1">PILIHAN 1</a></li>
+        <li><a data-icon="phone" class="ui-btn-active ui-state-persist">PILIHAN 2</a></li>
+        <li><a data-icon="alert" href="#page3">PILIHAN 3</a></li>
+    </ul>
+	</div>
+	
+		<h4>STAF2</h4>
+	</div>
+	<!-- /footer -->
+</div>
+<!-- /page -->
+
+<!-- page 3 -->
+<div data-role="page" id="page3" data-theme="c">
+	<!-- header -->
+	<div data-role="header" data-add-back-btn="true" >
+		<h1>Page Title 2</h1>
+	</div>
+	<!-- /header -->
+<img src="img/afng.jpg" alt="teknologi">
+
+	<!-- content -->
+	<div role="main" class="ui-content">
+		<h3>Senarai Staf</h3>
+		<ul data-role="listview" data-inset="true">
+			<li> 
+				<a href="#pop1" data-rel="popup">
+				<img src="img/z.jpg" width="150" />
+				<h3> Mej Z </h3>
+				<p> Panglima ITAS</p> 
+				</a>
+			</li>
+			
+			<li> 
+				<a href="#pop2" data-rel="popup">
+				<img src="img/n.jpg" width="150" />
+				<h3> Mej nizam </h3>
+				<p> Panglima MPLU</p> 
+				</a>
+			</li>
+			
+			<li> 
+				<a href="#pop3" data-rel="popup">
+				<img src="img/k.jpg" width="150" />
+				<h3> Mej Kdin </h3>
+				<p> Panglima SITU</p> 
+				</a>
+			</li>
+		
+		<div data-role="popup" id="pop1" data-theme="d">
+		<ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="e">
+			<li><a href="tel:0164102732" class="ui-btn ui-btn-icon-left ui-icon-phone">Telefon</a></li>
+			<li><a href="sms://+60164102732" class="ui-btn ui-btn-icon-left ui-icon-edit">Hantar SMS</a></li>
+			<li><a href="mailto:zack6022004@gmail.com" class="ui-btn ui-btn-icon-left ui-icon-mail">Pesanan Emel</a></li>
+		</ul>
+		</div>
+
+		<div data-role="popup" id="pop2" data-theme="d">
+		<ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="e">
+			<li><a href="tel:0164102732" class="ui-icon-left ui-icon-phone">Telefon</a></li>
+			<li><a href="sms://+60164102732" class="ui-icon-left ui-icon-edit">Hantar SMS</a></li>
+			<li><a href="mailto:nizam@gmail.com" class="ui-icon-left ui-icon-mail">Pesanan Emel</a></li>
+		</ul>
+		</div>
+		
+		<div data-role="popup" id="pop3" data-theme="d">
+		<ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="e">
+			<li><a href="tel:0164102732">Telefon</a></li>
+			<li><a href="sms://+60164102732">Hantar SMS</a></li>
+			<li><a href="mailto:kdin@gmail.com">Pesanan Emel</a></li>
+		</ul>
+		</div>
+		
+		</ul>
+		<br>
+		<a href="#page2" class="ui-btn" data-transition="flip">PAGE2</a>
+		<a href="#page1" class="ui-btn" data-transition="flip">PAGE1</a>
+		
+	</div>
+	<!-- /content -->
+
+	<!-- footer -->
+	<div data-role="footer" data-position="fixed">
+	
+		<!-- /navbar -->
+	<div data-role="navbar">
+    <ul>
+        <li><a data-icon="home" href="#page1">PILIHAN 1</a></li>
+        <li><a data-icon="phone" href="#page2">PILIHAN 2</a></li>
+        <li><a data-icon="alert" class="ui-btn-active ui-state-persist">PILIHAN 3</a></li>
+    </ul>
+	</div>
+	
+		
+	</div>
+	<!-- /footer -->
+</div>
+<!-- /page -->
+  
+</body>
+
+</html>
